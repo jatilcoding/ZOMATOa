@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: lightgreen;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: darkgreen;
+        }
+
+        h2 {
+            color: darkgreen;
+            margin-top: 20px;
+        }
+
+        form {
+            margin: 0 auto;
+            width: 350px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        select {
+            width: calc(100% - 22px);
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: darkgreen;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: green;
+        }
+
+        .center {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        marquee {
+            color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Login Carefully</h1>
+    <h2>Personal details</h2>
+    <form>
+        <ul>
+            <li>Enter Your Name: <input type="text" size="20" placeholder="First Name"></li>
+            <li>Create Your Username: <input type="text" size="20" placeholder="@Username"></li>
+            <li>Create Your Password: <input type="password" size="20" placeholder="password"></li>
+            <li>Enter Your Bank: <input type="text" size="20" placeholder="Bank Name"></li>
+            <li>Enter Your Bank Name: <input type="text" size="20" placeholder="Bank Username"></li>
+            <li>Enter Your Account Number: <input type="text" size="20" placeholder="Account Number"></li>
+        </ul>
+        <hr>
+        <div class="center">
+            <marquee direction="left" behavior="alternate"><a href="https://www.google.com">Create Your Details With QR Code</a></marquee>
+        </div>
+        <h2>Form details</h2>
+        <ul>
+            <li>Enter Your Address: <input type="text" size="20" placeholder="Address"></li>
+            <li>Enter Your DOB: <input for="DOB" type="date" size="20"></li>
+            <li>Enter Your Phone Number: <input type="phone" size="20" placeholder="Phone Number"></li>
+            <li>Enter Your OTP: <input type="text" size="6"></li>
+			<li>Select Your Caste:	
+                <select for=Caste" placeholder="Caste">
+                    <option>OBC</option>
+                    <option>ST</option>
+                    <option>SC</option>
+                </select>
+            </li>
+            <li>Select Your Course: 
+                <select>
+                    <option>Kali Linux</option>
+                    <option>Ubuntu</option>
+                    <option>Kali Nethunter</option>
+                </select>
+            </li>
+            <li>Enter Your Age: <input type="text" size="2"></li>
+        </ul>
+        <div class="center">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
